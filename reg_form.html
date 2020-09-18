@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<style type=text/css>
+      #head1{
+	text-align: center;
+}
+body{
+	background: #fff8e6;
+}
+input{
+	background: #ffe099;
+	font-weight: bold;
+}
+textarea{
+	background: #ffe099;
+	font-weight: bold;
+}
+select{
+	background: #ffe099;
+	font-weight: bold;
+}
+#b1{
+	font-weight: bold;
+	border: 3px solid black;
+}
+#b2{
+	font-weight: bold;
+	border: 3px solid black;
+}
+#b3{
+	font-weight: bold;
+	border: 3px solid black;
+}
+  </style>
+</head>
+<body>
+	<h1 id="head1">REGISTRATION</h1>
+	<div id="reg-form">
+		<form action="" method="">
+			<h2 id="head2">BASIC DETAILS</h2>
+			<div id="b1"><br>
+			    <label for="formNumber">Form Number</label>
+			    <input type="text" name="formNumber" required><br><br>
+			    <label for="name1">Name</label>
+			    <input type="text" name="name1" required><br><br>
+			    <label for="roll">Roll Number</label>
+			    <input type="text" name="roll" required><br><br>
+			    <label>Gender</label>
+			    <label for="male">Male</label>
+			    <input type="radio" name="gender-choice" value="choice-1">
+			    <label for="female">Female</label>
+			    <input type="radio" name="gender-choice" value="choice-2"><br><br>
+			    <label for="dob">DOB</label>
+			    <input type="date" name="dob"><br><br>
+			    <label>PWD</label>
+			    <label for="yes">YES</label>
+			    <input type="radio" name="choice" value="choice-1">
+			    <label for="no">NO</label>
+			    <input type="radio" name="choice" value="choice-2"><br><br>
+			    <label for="category">Category</label>
+			    <select name="category">
+			    <option value="gen">GEN</option>
+			    <option value="obc">OBC</option>
+			    <option value="sc">SC</option>
+			    <option value="st">ST</option>
+		        </select><br><br>
+		        <label for="t1">Address</label><br>
+		        <textarea name="t1"></textarea><br><br>
+		        <label>PLEASE INPUT THE CORRECT PIN CODE</label><br><br>
+		        <label for="t2">PIN CODE</label>
+		        <input type="text" name="t2"><br><br>
+		        <label for="t3">PHONE OF STUDENT</label>
+		        <input type="text" name="t3"><br><br>
+		        <label for="t4">PHONE OF GARDIAN</label>
+		        <input type="text" name="t4"><br><br>		
+		    </div><br>
+		    <h2 id="head3">ACADEMIC INFORMATION</h2>
+		    <div id="b2"><br>
+		    	<label for="course">Course</label>
+			    <select name="course">
+			    <option value="btech">BTech</option>
+			    <option value="mtech">MTech</option>
+		        </select><br><br>
+		        <label for="branch">Branch</label>
+		        <input type="text" name="branch"><br><br>
+		        <label for="sem">Semester</label>
+			    <select name="sem">
+			    <option value="1">1st</option>
+			    <option value="2">2nd</option>
+			    <option value="3">3rd</option>
+			    <option value="4">4th</option>
+		        </select><label>(for which allotment will be done)</label><br><br>
+		        <label for="air">All India Rank</label>
+		        <input type="text" name="air"><label>(2019 JEE Main/GATE)</label><br><br>
+		        <label for="crank">Category Rank</label>
+		        <input type="text" name="crank"><label>(2019 JEE MAin/Gate)</label><br><br>
+		        <label for="cgpa">CGPA</label>
+		        <input type="text" name="cgpa"><br><br>
+		        <label>Backlog</label>
+			    <label for="yes">YES</label>
+			    <input type="radio" name="choices" value="choice-1">
+			    <label for="no">NO</label>
+			    <input type="radio" name="choices" value="choice-2"><br><br>
+			    <label>Hostel Accommodation</label>
+			    <label for="yes">YES</label>
+			    <input type="radio" name="choice4" value="choice-1">
+			    <label for="no">NO</label>
+			    <input type="radio" name="choice4" value="choice-2"><label>(IF ANY)</label><br><br>
+		        <label for="noh">Name Of Hostel</label>
+		        <input type="text" name="noh"><br><br>
+		        <label for="rnum">Room Number</label>
+		        <input type="text" name="rnum"><br><br>
+		    </div><br>
+		    <h2 id="head4">ACCOUNT DETAILS FOR REFUNDING PROCESS</h2>
+		    <div id="b3"><br>
+		    	<label for="ahn">Account Holder Name</label>
+		        <input type="text" name="ahn"><label>As Per Bank Passbook</label><br><br>
+		        <label for="an">Account Number</label>
+		        <input type="text" name="an"><br><br>
+		        <label for="code">IFSC CODE</label>
+		        <input type="text" name="code"><br><br>
+		        <label for="bname">Bank Name</label>
+		        <input type="text" name="bname"><br><br>
+		        <label for="bbranch">Bank Branch</label>
+		        <input type="text" name="bbranch"><br><br>
+		    </div>
+		</form>
+	</div>
+</body>
+</html>
